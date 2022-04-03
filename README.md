@@ -1,2 +1,3 @@
 # maDex
- A JUCE virtual DJ like app
+ A JUCE virtual DJ like app written in C++
+

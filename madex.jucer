@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="TrbWFo" name="maDex" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" maxBinaryFileSize="20971520"
+              displaySplashScreen="1" cppLanguageStandard="17">
+  <MAINGROUP id="rnfSBB" name="maDex">
+    <GROUP id="{59D11BBF-35F8-0AB6-5335-56222C60DB15}" name="Source">
+      <FILE id="cevFpA" name="Sampler.cpp" compile="1" resource="0" file="Source/Sampler.cpp"/>
+      <FILE id="KO3Bxs" name="Sampler.h" compile="0" resource="0" file="Source/Sampler.h"/>
+      <FILE id="oznOa2" name="Dex.cpp" compile="1" resource="0" file="Source/Dex.cpp"/>
+      <FILE id="Ubv4WQ" name="Dex.h" compile="0" resource="0" file="Source/Dex.h"/>
+      <FILE id="qKP3cZ" name="NavBar.cpp" compile="1" resource="0" file="Source/NavBar.cpp"/>
+      <FILE id="yzx4PU" name="NavBar.h" compile="0" resource="0" file="Source/NavBar.h"/>
+      <FILE id="bSycVl" name="NavList.cpp" compile="1" resource="0" file="Source/NavList.cpp"/>
+      <FILE id="ee3TAw" name="NavList.h" compile="0" resource="0" file="Source/NavList.h"/>
+      <FILE id="RjuBwi" name="States.cpp" compile="1" resource="0" file="Source/States.cpp"/>
+      <FILE id="IotJtK" name="States.h" compile="0" resource="0" file="Source/States.h"/>
+      <FILE id="V4RXPn" name="Tokenizer.h" compile="0" resource="0" file="Source/Tokenizer.h"/>
+      <FILE id="k6l8Qj" name="PlaylistData.cpp" compile="1" resource="0"
+            file="Source/PlaylistData.cpp"/>
+      <FILE id="XKOkgQ" name="PlaylistData.h" compile="0" resource="0" file="Source/PlaylistData.h"/>
+      <FILE id="v3DKe5" name="StateManager.cpp" compile="1" resource="0"
+            file="Source/StateManager.cpp"/>
+      <FILE id="dwtXci" name="StateManager.h" compile="0" resource="0" file="Source/StateManager.h"/>
+      <FILE id="pos2yb" name="Playlist.cpp" compile="1" resource="0" file="Source/Playlist.cpp"/>
+      <FILE id="muZOKr" name="Playlist.h" compile="0" resource="0" file="Source/Playlist.h"/>
+      <FILE id="jD2YqX" name="WaveFormDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveFormDisplay.cpp"/>
+      <FILE id="TXSXAh" name="WaveFormDisplay.h" compile="0" resource="0"
+            file="Source/WaveFormDisplay.h"/>
+      <FILE id="U7h7FS" name="MadexGUI.cpp" compile="1" resource="0" file="Source/MadexGUI.cpp"/>
+      <FILE id="yRCiWj" name="MadexGUI.h" compile="0" resource="0" file="Source/MadexGUI.h"/>
+      <FILE id="swibmv" name="MadexPlayer.cpp" compile="1" resource="0" file="Source/MadexPlayer.cpp"/>
+      <FILE id="Re07Xp" name="MadexPlayer.h" compile="0" resource="0" file="Source/MadexPlayer.h"/>
+      <FILE id="bNOeWi" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="LGRXAH" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="XlcKNk" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <ANDROIDSTUDIO targetFolder="Builds/Android">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="webmusicplayer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="webmusicplayer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </ANDROIDSTUDIO>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="webmusicplayer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="webmusicplayer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="webmusicplayer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="webmusicplayer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="webmusicplayer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="webmusicplayer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="webmusicplayer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="webmusicplayer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
